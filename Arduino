@@ -4,5 +4,10 @@
 Python으로 fake 데이터를 활용하여 시리얼 통신 구조 제작
 아두이노 및 센서를 활용하여 실제 데이터 수집(시리얼 통신 구조 재사용)
 좌표 변환 및 matplotlib 2D 맵핑.
-사용 환경 : VScode
+[사용 환경]
+개발 툴 : Visual Studio Code (Python)
+라이브러리 : pyserial, matplotlib, math
+*pyserial(아두이노와 Python 간 시리얼 통신 담당)
+*matplotlib(센서 데이터를 시각화해서 2D 맵핑 확인)
+*math(좌표 변환)
 
