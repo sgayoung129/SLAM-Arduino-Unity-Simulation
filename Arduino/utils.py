@@ -14,5 +14,5 @@ def polar_to_xy(angle, distance):
     """
     rad = math.radians(angle)
     x = distance*math.cos(rad)
-    y = distance*math.xin(rad)
+    y = distance*math.sin(rad)
     return x, y
