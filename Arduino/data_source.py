@@ -15,7 +15,7 @@ def list_serial_ports():
     """
     사용 가능한 시리얼 포트 목록을 반환. - pyseerial이 설치되지 않았거나 권한 문제일 경우 빈 리스트 반환   
     """
-    if seriall is None:
+    if serial is None:
         return []    # 빈 리스트 반환
     return [p.device for p in list_ports.comports()]   # list_ports.comports()는 시스템의 포트 정보를 담은 generator/리스트 반환 
 
@@ -28,7 +28,7 @@ def get_fake_line():
     """
     angle = random.randint(0, 180)
     distance = round(random.uniform(10, 100), 2)
-    return f"{angle}, {distance}"
+    return f"{angle},{distance}"
 
 def read_serial_line(ser):
     """
@@ -49,6 +49,6 @@ def open_serial(port, baud=9600):
     """
     if serial is None:
         # 실제 환경에서 이 함수를 호출할 때는 반드시 pyserial이 설치되어 있어야 함.
-        raise ImportError("ptserial이 설치되어 있지 않습니다.")
+        raise ImportError("pyserial이 설치되어 있지 않습니다.")
     # Serial 객체를 생성하여 반환 (호출자가 close()를 관리) 
     return serial.Serial(port, baud, timeout=1)
