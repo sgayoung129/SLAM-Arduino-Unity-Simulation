@@ -6,7 +6,7 @@ def main(mode='fake', port = None, baud=9600):
     """
     main 함수 : mode에 따라 fake 데이터를 생성하거나 실제 시리얼에서 데이터를 읽어 처리
     - mode : 'fake' 또는 'real'
-    - prot : 실제 모드에서 사용할 포트 문자열
+    - port : 실제 모드에서 사용할 포트 문자열
     - baud : 시리얼 통신 속도
     """
     ser = None   # 시리얼 객체 보관
@@ -18,12 +18,12 @@ def main(mode='fake', port = None, baud=9600):
             return
         ser = open_serial(port, baud)
 
-try:
-    # 무한 루프 : 데이터 취득 -> 파싱 -> 좌표 변환 -> 출
-    while True:
-        # 데이터 소스 선택: fake 모드면 내부 함수로 라인 생성, real이면 시리얼에서 읽음
-        if mode == 'fake':
-            line = get_fake_line()
+    try:
+        # 무한 루프 : 데이터 취득 -> 파싱 -> 좌표 변환 -> 출
+        while True:
+            # 데이터 소스 선택: fake 모드면 내부 함수로 라인 생성, real이면 시리얼에서 읽음
+            if mode == 'fake':
+                line = get_fake_line()
         else:
             line = read_serial_line(ser)
         
