@@ -15,3 +15,6 @@ Python으로 fake 데이터를 활용하여 시리얼 통신 구조 제작
 data_source.py (https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/data_source.py)
 utils.py (https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/utils.py)
 main.py (https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/main.py)
+
+[하드웨어]
+Arduino UNO, 초음파 센서(HC-SR04), 서보모터(SG90), (브레드 보드)
