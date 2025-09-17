@@ -16,7 +16,7 @@ Python으로 fake 데이터를 활용하여 시리얼 통신 구조 제작
 - [data_source.py](https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/data_source.py)
   ⇢ 가상 데이터 또는 시리얼 입력 데이터를 관리
 - [utils.py](https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/utils.py)
-  ⇢좌표 변환 및 데이터 처리 함수 모음  
+  ⇢ 좌표 변환 및 데이터 처리 함수 모음  
 - [main.py](https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/main.py)
  ⇢ 전체 실행 파일 (시리얼 수신 -> 좌표 변 -> 2D 맵핑)
 
