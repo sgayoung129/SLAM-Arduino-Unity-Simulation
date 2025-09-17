@@ -14,8 +14,11 @@ Python으로 fake 데이터를 활용하여 시리얼 통신 구조 제작
 
 [코드]
 data_source.py (https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/data_source.py)
+- 가상 데이터 또는 시리얼 입력 데이터를 관리
 utils.py (https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/utils.py)
+- 좌표 변환및 데이터 처리 함수 모음  
 main.py (https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/main.py)
+- 전체 실행 파일 (시리얼 수신 -> 좌표 변혼 -> 2D 맵핑)
 
 [하드웨어]
 Arduino UNO : 전체 시스템을 제어하는 마이크로 컨트롤러 보드
@@ -24,4 +27,5 @@ Arduino UNO : 전체 시스템을 제어하는 마이크로 컨트롤러 보드
 Breadvoard & Jumper Wires : 센서 및 모터 배선을 간단히 연결하기 위한 실습용 도구
 
 [회로도]
-https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8%20%ED%9A%8C%EB%A1%9C%EB%8F%84.png
+![아두이노 회로도](https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8%20%ED%9A%8C%EB%A1%9C%EB%8F%84.png?raw=true)
+
