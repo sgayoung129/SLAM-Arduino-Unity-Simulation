@@ -27,5 +27,5 @@ Arduino UNO : 전체 시스템을 제어하는 마이크로 컨트롤러 보드
 Breadvoard & Jumper Wires : 센서 및 모터 배선을 간단히 연결하기 위한 실습용 도구
 
 [회로도]
-![아두이노 회로도](./Arduino_circuit.png)
+<img src="./Arduino_circuit.png" alt="아두이노 회로도" width="500"/>
 
