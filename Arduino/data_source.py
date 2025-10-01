@@ -16,8 +16,8 @@ def list_serial_ports():
     사용 가능한 시리얼 포트 목록을 반환. - pyseerial이 설치되지 않았거나 권한 문제일 경우 빈 리스트 반환   
     """
     if serial is None:
-        return []    # 빈 리스트 반환
-    return [p.device for p in list_ports.comports()]   # list_ports.comports()는 시스템의 포트 정보를 담은 generator/리스트 반환 
+        return []     # 빈 리스트 반환
+    return [p.device for p in list_ports.comports()]     # list_ports.comports()는 시스템의 포트 정보를 담은 generator/리스트 반환 
 
 def get_fake_line():
     """
