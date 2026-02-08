@@ -34,8 +34,8 @@
 - 서보에 초음파를 테이프로 고정하여 레이더 형태 구현
 
 ## Hardware Test
-
 - 테스트 코드: sensor_test.ino (https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/sensor_test.ino)
+- 실험 날짜 및 환경 : 2026-02-08, 실내
 - 초음파 센서 + 서보모터 정상 동작 확인
 - 시리얼 모니터에서 각도, 거리값 출력 확인
 - 손으로 장애물 위치 변경 시 거리값 실시간 반영
