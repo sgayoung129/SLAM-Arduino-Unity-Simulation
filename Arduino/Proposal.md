@@ -45,6 +45,8 @@
   - 초음파 GND → Arduino GND
   - TRIG → D9, ECHO → D10
   - 서보 신호 → D3, 전원/그라운드 → 5V/GND
+<img width="919" height="746" alt="image" src="https://github.com/user-attachments/assets/6f60d9aa-371c-4860-86d5-e1744d15fb4a" />
+
 
 ## 다음 단계
 - Unity에서 레이더 데이터 시각화
