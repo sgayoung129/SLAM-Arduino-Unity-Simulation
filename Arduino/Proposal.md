@@ -49,11 +49,11 @@
 
 ## space_design
 - 공간 형태 : 정사각형
-- 공간 크기 : 70cm * 70cm
-- Unity 기준 공간 크기 : 0.7 * 0.7 (1 unit = 1m 기준)
+- 공간 크기 : 70cm × 70cm
+- Unity 기준 공간 크기 : 0.7 × 0.7 (1 unit = 1m 기준)
 
 - 좌표계 : 2D Cartesian coordinate system
-- 원점(0,0) 공간의 중앙으로 설정.
+- 원점(0,0)은 공간의 중앙으로 설정.
 - x축 오른쪽 방향, y축 위쪽 방향
 - 좌표 범위 : x, y ∈ [-0.35, 0.35] (공간 중심 기준, Unity 1 unit = 1m)
 
@@ -62,15 +62,15 @@
 
 - 장애물:
   - 장애물 형태 : 사각형 블록
-  - 장애물 크기 : 약 10cm*15cm
-  ※ 실제 실험 환경 구성 과정에서 장애물 크기는 일부 조정될 수 있음*
+  - 장애물 크기 : 약 10cm × 15cm
+  ※실제 실험 환경 구성 과정에서 장애물 크기는 일부 조정될 수 있음*
   - 장애물 배치 : 사전 정의된 위치에 고정 배치(*공간도 참고)
   
 - 경계 조건:
   - 경계는 실제 물리적 장애물로 구성되어 센서 측정 시 벽을 장애물로 인식
   - 센서는 공간 외부로 이동 불가
 
-- 공간도(https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/space_design.png)
+- 공간도 : https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/space_design.png
 
 ## 다음 단계
 - Unity에서 레이더 데이터 시각화
