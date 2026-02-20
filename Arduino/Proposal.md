@@ -63,7 +63,7 @@
 - 장애물:
   - 장애물 형태 : 사각형 블록
   - 장애물 크기 : 약 10cm × 15cm
-  ※실제 실험 환경 구성 과정에서 장애물 크기는 일부 조정될 수 있음*
+   ⚠ 실제 구성 단계에서는 이 크기가 일부 변경될 수 있으며, 변경 사항은 Results.md에 기록한다.
   - 장애물 배치 : 사전 정의된 위치에 고정 배치(*공간도 참고)
   
 - 경계 조건:
@@ -71,6 +71,8 @@
   - 센서는 공간 외부로 이동 불가
 
 - 공간도 : https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/space_design.png
+  <img width="625" height="403" alt="스크린샷 2026-02-20 144018" src="https://github.com/user-attachments/assets/c70a75f5-44e3-4c12-825f-6eb1d537b0fd" />
+
 
 ## 다음 단계
 - Unity에서 레이더 데이터 시각화
