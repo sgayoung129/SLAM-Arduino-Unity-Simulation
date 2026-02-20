@@ -47,6 +47,22 @@
   - 서보 신호 → D3, 전원/그라운드 → 5V/GND
 <img width="919" height="746" alt="image" src="https://github.com/user-attachments/assets/6f60d9aa-371c-4860-86d5-e1744d15fb4a" />
 
+## space_design
+- 공간 형태 : 정사각형
+- 공간 크기 : 70cm * 70cm
+- Unity 기준 공간 크기 : 0.7 * 0.7 (1 unit = 1m 기준)
+
+- 좌표계 : 2D Cartesian coordinate system
+- 원점(0,0) 공간의 중앙으로 설정.
+
+- 장애물:
+  - 장애물 형태 : 사각형 블록
+  - 장애물 배치 : 사전 정의된 위치에 고정 배치(*공간도 참고)
+- 경계 조건:
+  - 경계는 실제 물리적 장애물로 구성되어 센서 측정 시 벽을 장애물로 인식
+  - 센서는 공간 외부로 이동 불가
+
+- 공간도(https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/space_design.png)
 
 ## 다음 단계
 - Unity에서 레이더 데이터 시각화
