@@ -65,13 +65,17 @@
   - 장애물 크기 : 약 10cm × 15cm
    ⚠ 실제 구성 단계에서는 이 크기가 일부 변경될 수 있으며, 변경 사항은 Results.md에 기록한다.
   - 장애물 배치 : 사전 정의된 위치에 고정 배치(*공간도 참고)
+    ※*장애물은 실험 재현성과 각도/거리 변화 관찰을 위해 고정 배치합니다.*
   
 - 경계 조건:
   - 경계는 실제 물리적 장애물로 구성되어 센서 측정 시 벽을 장애물로 인식
   - 센서는 공간 외부로 이동 불가
 
-- 공간도 : https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/space_design.png
-  <img width="625" height="403" alt="스크린샷 2026-02-20 144018" src="https://github.com/user-attachments/assets/c70a75f5-44e3-4c12-825f-6eb1d537b0fd" />
+- 공간도 : 아래 이미지는 본 실험에서 사용할 공간 구성 및 장애물 배치 기준입니다.
+
+  https://github.com/sgayoung129/SLAM-Arduino-Unity-Simulation/blob/main/Arduino/space_design.png
+<img width="625" height="403" alt="스크린샷 2026-02-20 144018" src="https://github.com/user-attachments/assets/c70a75f5-44e3-4c12-825f-6eb1d537b0fd" />
+  
 
 
 ## 다음 단계
